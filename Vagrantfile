@@ -15,5 +15,6 @@ Vagrant.configure("2") do |config|
     team2.vm.hostname = "team2-server"
     team2.vm.network "private_network", ip: "192.168.33.11"
     team2.vm.network :forwarded_port, guest: 22, host: 10222, id: "ssh"
+    team2.vm.provision :shell, path: "java.sh"
   end
 end
