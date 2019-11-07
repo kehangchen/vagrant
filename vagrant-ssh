@@ -1,0 +1,22 @@
+Host team1
+  HostName 127.0.0.1
+  User vagrant
+  Port 10122
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/kchen/Documents/vagrant/.vagrant/machines/team1/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host team2
+  HostName 127.0.0.1
+  User vagrant
+  Port 10222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/kchen/Documents/vagrant/.vagrant/machines/team2/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
